@@ -89,7 +89,9 @@ for c = 8:s(1)
 
 end
 
-%fig2plotly('TreatAs', 'compass');
+figure;
+compass(abs(Eax_test),imag(Eay_test));
+fig2plotly('TreatAs', 'compass');
 
 % figure;
 % disp(zeros(s(1)-7,1));
